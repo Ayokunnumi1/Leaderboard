@@ -70,6 +70,28 @@ h2 {
   cursor: pointer;
 }
 
+#input-text,
+#input-number {
+  padding: 10px;
+  border-radius: 20px;
+  outline: none;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.submit-btn-parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+.submit-button {
+  padding: 10px;
+  border-radius: 15px;
+  width: 120px;
+  cursor: pointer;
+}
+
 @media screen and (min-width: 600px) {
   .h1-text {
     margin-right: 370px;
