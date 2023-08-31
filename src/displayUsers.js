@@ -40,7 +40,7 @@ submitButton.addEventListener('click', async (e) => {
       inputText.value = '';
       inputNumber.value = '';
     }
-    console.log(res);
+    // console.log(res);
   } catch (error) {
     return error;
   }
