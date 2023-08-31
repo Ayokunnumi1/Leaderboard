@@ -12,7 +12,7 @@ export const displayUser = (users) => {
   const userScoreElement = users.map((user) => {
     const li = `
     <li class="user-scores-listed">
-    <span>${user.user}:</span>
+    <span>${user.user}</span>
     <span>${user.score}</span>
     </li>`;
     return li;
