@@ -14,8 +14,8 @@ export const displayUser = (users) => {
   const userScoreElement = users.map((user) => {
     const li = `
     <li class="user-scores-listed">
-    <span>${user.userInput}:</span>
-    <span>${user.scoreInput}</span>
+    <span>${user.user}:</span>
+    <span>${user.score}</span>
     </li>`;
     return li;
   }).join('');
@@ -30,9 +30,9 @@ submitButton.addEventListener('click', async (e) => {
   e.preventDefault();
   const inputText = form.querySelector('#input-text');
   const inputNumber = form.querySelector('#input-number');
-  const userInput = inputText.value;
-  const scoreInput = inputNumber.value;
-  const userInfo = { userInput, scoreInput };
+  const user = inputText.value;
+  const score = inputNumber.value;
+  const userInfo = { user, score };
   try {
     const res = await createGame(`${baseUrl}${gameId}/scores/`, userInfo);
     if (res?.result === 'Leaderboard score created correctly.') {
@@ -40,6 +40,7 @@ submitButton.addEventListener('click', async (e) => {
       inputText.value = '';
       inputNumber.value = '';
     }
+    console.log(res);
   } catch (error) {
     return error;
   }
@@ -49,5 +50,4 @@ submitButton.addEventListener('click', async (e) => {
 const refreshButton = document.querySelector('.refresh-button');
 refreshButton.addEventListener('click', () => {
   updateScoreBoard();
-  console.log('clicked');
 });
