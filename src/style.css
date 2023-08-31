@@ -51,7 +51,7 @@ h2 {
   gap: 20px;
 }
 
-.recent-score-box {
+.score-box {
   border: 3px solid black;
   height: 300px;
   overflow-y: scroll;
@@ -75,6 +75,12 @@ h2 {
   padding: 10px;
   border-radius: 20px;
   outline: none;
+  margin-bottom: 5px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
   margin-top: 10px;
   margin-bottom: 20px;
 }
