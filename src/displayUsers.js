@@ -1,6 +1,5 @@
-// eslint-disable-next-line import/prefer-default-export
-import { fetchData } from './fetchData.js';
-import { createGame } from './createGame.js';
+import fetchData from './fetchData.js';
+import createGame from './createGame.js';
 
 const scoreBox = document.querySelector('.score-box');
 const form = document.querySelector('.form');
@@ -8,7 +7,6 @@ const baseUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/
 const gameId = 'Z4pTq6wYA6xnhBsGVc7J';
 const submitButton = document.querySelector('.submit-button');
 
-// eslint-disable-next-line import/prefer-default-export
 export const displayUser = (users) => {
   scoreBox.innerHTML = '';
   const userScoreElement = users.map((user) => {
@@ -40,7 +38,6 @@ submitButton.addEventListener('click', async (e) => {
       inputText.value = '';
       inputNumber.value = '';
     }
-    // console.log(res);
   } catch (error) {
     return error;
   }

@@ -1,5 +1,4 @@
-// eslint-disable-next-line import/prefer-default-export
-export const fetchData = async (url) => {
+const fetchData = async (url) => {
   try {
     const response = await fetch(url);
     const data = await response.json();
@@ -8,3 +7,4 @@ export const fetchData = async (url) => {
     return error;
   }
 };
+export default fetchData;

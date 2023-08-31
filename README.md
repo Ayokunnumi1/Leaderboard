@@ -1,4 +1,15 @@
-# LEADERBOARD
+<div align="center">
+  <img src="images/Ay-Logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+  <h1><b>Welcome to my project 😃</b></h1>
+</div>
+
+<div align="center">
+  
+  <br/>
+<h1 align="center">LeaderBoard Website</h1>
+</div>
 
 # 📗 Table of Contents
 
@@ -20,7 +31,7 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 <a name="about-project">LEADERBOARD</a>
+# 📖 <a name="about-project">[LEADERBOARD WEBSITE]</a>
 
 The leaderboard website displays scores submitted by different players. It also allows you to submit your score. I used HTML, CSS and Javascript programming languages in the creation of this project.
 
