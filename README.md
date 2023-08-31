@@ -31,6 +31,9 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
+
+<img src="images/leaderboard.png" width="auto">
+
 # 📖 <a name="about-project">[LEADERBOARD WEBSITE]</a>
 
 The leaderboard website displays scores submitted by different players. It also allows you to submit your score. I used HTML, CSS and Javascript programming languages in the creation of this project.
@@ -51,11 +54,10 @@ The leaderboard website displays scores submitted by different players. It also 
 
 ### Key Features <a name="key-features"></a>
 
-- **Functionality: the Leaderboard API was created using JavaScript async and await**
-<!-- - **List: A clicakable link on the navigation bar that displays the books inputted by the user**
-- **Add New:A clickable link that displays a form allowing users to input the title and author of books**
-- **Social Contact: A form allowing visitors to get in touch with me.** -->
-- **Responsive Design: The website is optimized for different devices and screen sizes.**
+- **Functionality: the Leaderboard API was created using JavaScript async and await** 
+**Send and receive data from an API.**
+- **Used API documentation**
+- **Used ES6 syntax and modules**
 
 <!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
