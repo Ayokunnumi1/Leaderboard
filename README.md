@@ -31,7 +31,6 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-
 <img src="images/leaderboard.png" width="auto">
 
 # 📖 <a name="about-project">[LEADERBOARD WEBSITE]</a>
@@ -54,16 +53,16 @@ The leaderboard website displays scores submitted by different players. It also 
 
 ### Key Features <a name="key-features"></a>
 
-- **Functionality: the Leaderboard API was created using JavaScript async and await** 
-**Send and receive data from an API.**
+- **Functionality: the Leaderboard API was created using JavaScript async and await**
+  **Send and receive data from an API.**
 - **Used API documentation**
 - **Used ES6 syntax and modules**
 
-<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ## 🚀 Live Demo <a name="live-demo"></a> -->
+## 🚀 Live Demo <a name="live-demo"></a>
 
-<!-- - [Live Demo Link](https://ayokunnumi1.github.io/Awesome-Books/) -->
+- [Live Demo Link](https://ayokunnumi1.github.io/Leaderboard/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
