@@ -1,5 +1,6 @@
 import fetchData from './fetchData.js';
 import createGame from './createGame.js';
+import './style.css';
 
 const scoreBox = document.querySelector('.score-box');
 const form = document.querySelector('.form');
